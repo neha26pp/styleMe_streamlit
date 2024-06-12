@@ -17,7 +17,7 @@ import os
 config_list = [
     {
         "model": "gemini-1.5-flash",
-        "api_key": "AIzaSyAIO4KL1gDpl5OcPSzMj7O-lnHws-zdO_g",
+        "api_key": ,
         "api_type": "google"
     }
 ]
