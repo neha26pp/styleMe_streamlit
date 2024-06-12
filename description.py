@@ -5,8 +5,8 @@ import google.generativeai as genai
 import dotenv
 
 # my_api_key = st.secrets["api_keys"]['GOOGLE_API_KEY']
-my_api_key = "AIzaSyAIO4KL1gDpl5OcPSzMj7O-lnHws-zdO_g"
-genai.configure(api_key="AIzaSyAIO4KL1gDpl5OcPSzMj7O-lnHws-zdO_g")
+
+genai.configure(api_key=my_api_key)
 
 model = genai.GenerativeModel('gemini-pro-vision')
 
